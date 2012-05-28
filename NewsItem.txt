@@ -1,0 +1,24 @@
+{
+  "title": "NewsItem",
+  "type": "object",
+  "properties": {
+    "Title": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Text": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Creared": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

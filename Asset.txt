@@ -1,0 +1,45 @@
+{
+  "title": "Asset",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "required": true,
+      "type": "string"
+    },
+    "Type": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Path": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "URL": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Title": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Description": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "EvenItem",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "required": true,
+      "type": "string"
+    },
+    "Title": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Text": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ScheduledFor": {
+      "required": true,
+      "type": "string"
+    },
+    "Duration": {
+      "required": true,
+      "type": "string"
+    },
+    "Created": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

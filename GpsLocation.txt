@@ -1,0 +1,20 @@
+{
+  "title": "GpsLocation",
+  "type": "object",
+  "properties": {
+    "Long": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Lat": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

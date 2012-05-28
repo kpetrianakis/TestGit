@@ -1,0 +1,235 @@
+{
+  "title": "Branch",
+  "type": "object",
+  "properties": {
+    "WorkingHours": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Address": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "ID": {
+          "required": true,
+          "type": "string"
+        },
+        "Name": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "AddressLine1": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "AddressLine2": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "City": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ZipCode": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Notes": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Location": {
+      "required": true,
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "Long": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Lat": {
+          "required": true,
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Events": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "ID": {
+            "required": true,
+            "type": "string"
+          },
+          "Title": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Text": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ScheduledFor": {
+            "required": true,
+            "type": "string"
+          },
+          "Duration": {
+            "required": true,
+            "type": "string"
+          },
+          "Created": {
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Assets": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "ID": {
+            "required": true,
+            "type": "string"
+          },
+          "Type": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Path": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "URL": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Title": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Description": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "Offers": {
+      "required": true,
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "ID": {
+            "required": true,
+            "type": "string"
+          },
+          "Title": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Text": {
+            "required": true,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ScheduledFor": {
+            "required": true,
+            "type": "string"
+          },
+          "Duration": {
+            "required": true,
+            "type": "string"
+          },
+          "Created": {
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

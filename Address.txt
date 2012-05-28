@@ -1,0 +1,52 @@
+{
+  "title": "Address",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "required": true,
+      "type": "string"
+    },
+    "Name": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AddressLine1": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "AddressLine2": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "City": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ZipCode": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Notes": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

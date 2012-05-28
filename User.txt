@@ -1,0 +1,49 @@
+{
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "required": true,
+      "type": "string"
+    },
+    "ExternalIdentifier": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Created": {
+      "required": true,
+      "type": "string"
+    },
+    "FirstName": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "LastName": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Email": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "Password": {
+      "required": true,
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
